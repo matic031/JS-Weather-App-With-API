@@ -23,11 +23,8 @@
   button {
     cursor: pointer;
   }
-   
-  input {
-    -webkit-appearance: none;
-  }
-   
+
+  
   button,
   input {
     border: none;
@@ -98,13 +95,17 @@
     padding: 15px 20px;
     margin-left: 15px;
     border-radius: 5px;
-    background: var(--red);
+    background: white;
+    
+  }
+
+  .top-banner form button:hover {
+   
+    background: black;
     
   }
   
-  .top-banner form button:hover {
-    background: var(--darkred);
-  }
+
   
   .top-banner form .msg {
     position: absolute;
@@ -113,6 +114,41 @@
     max-width: 450px;
     min-height: 40px;
   }
+
+
+
+  button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: black;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color:var(--text_dark);
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: white;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+
+
+
+
+
+
   
   
   /* SECTION #2
