@@ -156,6 +156,18 @@
   .ajax-section {
     margin: 70px 0 20px;
   }
+
+  body > section.ajax-section > div > ul > li {
+    transition: transform 0.3s ease;
+  }
+  
+  body > section.ajax-section > div > ul > li:hover {
+    transform: translateY(-15px);
+  }
+  
+  body > section.ajax-section > div > ul > li:not(:hover) {
+    transform: translateY(0);
+  }
   
   .ajax-section .cities {
     display: grid;
